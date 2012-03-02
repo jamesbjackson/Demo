@@ -1,0 +1,7 @@
+-js www/js/website.js
+-main Website
+-cp src
+-lib hxevents
+-lib xirsys_injector
+-lib xirsys_cube
+-lib xirsys_stdjs

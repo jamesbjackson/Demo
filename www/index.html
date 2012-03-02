@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta http-equiv="expires" content="0"/>
+		<meta http-equiv="pragma" content="no-cache"/>
+		<meta http-equiv="cache-control" content="no-cache"/>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+		<meta name="apple-mobile-web-app-capable" content="yes"/>
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta http-equiv="Content-Script-Type" content="text/javascript"/>
+		<noscript><meta http-equiv="Refresh" content="0;url=javascript/"/></noscript>
+		<link href="css/website.css" rel="stylesheet" type="text/css"/>
+		<title>Realtime Cloud</title>
+	</head>
+
+	<body>
+	
+		<div id="systemLaunch" class="website transparent"> 
+			
+			<div class="launch">
+				<div class="container">
+					<div class="logo">
+						<img src="images/logo.png"/>
+					</div>
+				</div>	
+			</div>
+		</div>	
+			
+		
+		<div id="systemStartup" class="website preloader"> 
+
+			<div class="viewable">
+				<div class="inner">
+					<div class="top"></div>	
+					<div class="contents">
+    					<h1>Something <b>awesome</b> is about to <b>happen</b>.</h1>
+    					<p class="progress-info"> 
+    						We are at
+    						<span class="value value-one">0</span>
+    						<span class="value value-two">0</span>
+    						<span class="value value-percent">%</span>
+    						of awesomeness so far.	
+    					</p>
+					</div>
+					<div class="bottom"></div>	
+				</div>
+			</div>
+
+			<footer>
+				<section>	
+					<p class="copyright">2012 Copyright Realtime Cloud. All Rights Reserved</p>
+				<section>
+			</footer>
+	
+		</div>
+
+		<script src="js/common.js" type="text/javascript"></script>
+		<script src="js/website.js" type="text/javascript" ></script>
+		<script type="text/javascript" >
+			var html5detection = true;
+			for (var feature in Modernizr){ if(Modernizr[feature]  == false){ html5detection = false; } }
+			try{ if(WebKitCSSMatrix == null) html5detection = false; }
+			catch(e){ html5detection = false; }
+			if(html5detection) Website.startApplication();	
+			else document.location.href = "browser/";
+		</script>
+
+	</body>
+
+</html>

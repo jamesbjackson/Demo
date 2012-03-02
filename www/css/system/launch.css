@@ -1,0 +1,31 @@
+	
+
+	#systemLaunch .launch {
+		margin: 0px auto 0px auto;
+		vertical-align:middle;
+		display:table-cell;
+		text-align: center;
+		
+	}
+	
+	#systemLaunch .launch .container{
+		margin: 0px auto 0px auto;
+		padding: 40px;
+		width: 230px;
+	}
+	
+	#systemLaunch .launch .logo {
+		margin: 0px auto 0px auto;
+		vertical-align: middle;
+		width: 230px;
+		height: 166px;
+	}
+
+
+
+	
+	
+
+	
+	
+

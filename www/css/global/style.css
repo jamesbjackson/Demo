@@ -1,0 +1,211 @@
+
+/*------------------------------------------------------------
+ Html & Body 
+------------------------------------------------------------*/
+
+	html, body {
+		font-size: 16px;
+		line-height: 20px;
+		background: #FFFFFF;
+		font-family: 'PacificoRegular', 'ComfortaaRegular', 'Helvetica Neue', 'HelveticaNeue', Helvetica, 'Lucida Grande', Lucida, Arial, sans-serif;
+		font-weight: lighter;
+		height:100%;
+		width:100%;
+	}
+	
+	.clear { clear:both; }
+	.hidden { display:none; !important }
+
+
+/*------------------------------------------------------------
+ Headings 
+------------------------------------------------------------*/
+
+	h1, h2, h3, h4, h5, h6, h7, h8 {
+		line-height: 20px;
+		margin:0px 0px 17px 0px;
+		padding:0px 0px 0px 0px;
+		font-weight: lighter;
+		color: #000;
+	}
+	
+	h1 { font-size: 21px; }
+	h2 { font-size: 20px; }
+	h3 { font-size: 19px; }
+	h4 { font-size: 18px; }
+	h5 { font-size: 17px; }
+	h6 { font-size: 16px; }
+	h7 { font-size: 15px; }
+	h8 { font-size: 14px; }
+	
+	
+/*------------------------------------------------------------
+ Paragraph 
+------------------------------------------------------------*/	
+	
+	p {
+		line-height: 20px;
+		font-weight: lighter;
+		margin:0px 0px 0px 0px;
+		padding:0px 0px 0px 0px;
+	}
+	
+	b { 
+	 	font-wight: strong;
+		color: #000000;
+	}
+	
+	
+/*------------------------------------------------------------
+ Hyperlinks 
+------------------------------------------------------------*/		
+	
+	a:link { color:#676a6e; text-decoration:none;  }
+	a:visited { color:#676a6e; text-decoration:none; }
+	a:hover { color:#676a6e; text-decoration:underline; }
+	a:active { color:#676a6e; text-decoration:none; }	
+
+
+/*------------------------------------------------------------
+ Website 
+------------------------------------------------------------*/
+
+	.website{
+		display:table;
+		height:100%;
+		width:100%;
+		color: #000000;
+		vertical-align:top;
+	}
+
+/*------------------------------------------------------------
+ Header 
+------------------------------------------------------------*/
+
+	header {
+		height:45px;
+		position:relative;
+		vertical-align:middle;
+		background-color: #000000;
+		display:table-row;
+		color:white;
+	}
+	
+	header section{
+		display:block;	
+		margin: 0px 0px 0px 10px;
+		padding: 10px 0px 10px 0px;
+		text-align: center;
+		font-size: 18px;
+	}
+	
+	header .logo{
+		display:block;
+		float: left;
+		margin: 0px 0px 0px 0px;
+		padding: 0px 0px 0px 0px;
+		background: url("../../images/icon.png") no-repeat scroll left top transparent;
+		width:32px;
+		height:26px;
+	}
+	
+	header .tagline{
+		display:block;
+		float: left;
+		margin: 0px 0px 0px 0px;
+		padding: 3px 20px 0px 10px;
+		border-right: 1px solid #aeafaf;
+		height:26px;
+	}
+	
+	header .breadcrumbs{
+		display:block;
+		float: left;
+		margin: 0px 0px 0px 20px;
+		padding: 3px 20px 0px 0px;
+		height:23px;
+	}
+
+	header .breadcrumbs li{
+		display:block;
+		float: left;
+		margin: 0px 10px 0px 0px;
+		color:white;
+	}
+	
+	
+	header .breadcrumbs a{
+		margin: 0px 0px 0px 0px;
+		padding: 0px 0px 2px 0px;
+		border-bottom: 3px solid #6bb811;
+		color:white;
+	}
+	
+	header .breadcrumbs li.active{ 
+		color:white;
+	}
+	
+	header .breadcrumbs li.inactive{ 
+		color:white;	
+	}
+	
+	header .breadcrumbs li a:hover{ 
+		text-decoration: none;
+		border-bottom: 3px solid #6bb811;
+	}
+	
+
+/*------------------------------------------------------------
+ Footer 
+------------------------------------------------------------*/
+
+	footer {
+    	position:relative;
+		vertical-align:bottom;
+		display:table-row;
+		margin: 10px 0px 10px 0px;
+		padding: 10px 0px 10px 0px;
+		height:34px;	
+	}
+	
+	footer section{
+		text-align: center;
+		font-size: 13px;
+		color: #676a6e;
+	}
+	
+	
+/*------------------------------------------------------------
+ Viewable 
+------------------------------------------------------------*/
+	
+	.viewable {
+		margin: 0px auto 0px auto;
+		text-align: center;
+		position: relative;
+		vertical-align: middle;
+		display: table-cell;
+	}
+	
+	.viewable .inner{
+	    background: #ffffff;
+	}
+	
+	.viewable .top {
+		margin-bottom: 0px;
+    	height:45px;
+	}
+	
+	.viewable .inner .contents{
+	 	margin: 0px auto 0px auto;
+	    width: 960px;
+	   
+	}
+	
+	.viewable .bottom {
+		margin-top:0px;
+		height: 39px;
+	}
+
+
+

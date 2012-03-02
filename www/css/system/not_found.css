@@ -1,0 +1,11 @@
+
+	#fileNotFound .title{
+		margin: 20px auto 20px auto;
+	}
+	
+	#fileNotFound .copy{
+		margin: 20px auto 20px auto;
+		width:662px;
+	}
+	
+	#fileNotFound .viewable .inner .contents { opacity : 1; }

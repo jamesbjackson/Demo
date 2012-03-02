@@ -1,0 +1,161 @@
+
+/*------------------------------------------------------------
+ RESET
+------------------------------------------------------------*/
+
+	html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, hgroup, menu, nav, section, time, mark, audio, video {
+		margin: 0px;
+		padding: 0px;
+		border: 0px;
+		outline: 0px;
+		font-size: 100%;
+		vertical-align: baseline;
+		background: transparent;
+	}									
+
+/*------------------------------------------------------------
+ HTML5 TAGS
+------------------------------------------------------------*/	
+	
+	article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary { display: block;}
+	
+
+/*------------------------------------------------------------
+ IMAGES & OBJECTS
+------------------------------------------------------------*/
+
+   img, object, embed { max-width: 100%; }
+
+
+/*------------------------------------------------------------
+ HTML & BODY
+------------------------------------------------------------*/
+	
+   html { overflow-y: scroll; }
+   body {font: 13px Helmet, Freesans, sans-serif;}
+   
+   
+/*------------------------------------------------------------
+ COLOUR
+------------------------------------------------------------*/
+	
+   body, select, input, textarea {color: #333;}  
+
+
+/*------------------------------------------------------------
+ LISTS
+------------------------------------------------------------*/
+		
+	ul { list-style: none; }
+
+
+/*------------------------------------------------------------
+ BLOCKQUOTES
+------------------------------------------------------------*/
+
+	blockquote, q {quotes: none;
+	blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+
+
+/*------------------------------------------------------------
+ HYPERLINKS
+------------------------------------------------------------*/
+	
+	a { margin: 0; padding: 0; font-size: 100%; vertical-align: baseline; background: transparent; cursor: pointer; }
+	a:hover, a:active {outline: none;}
+
+
+/*------------------------------------------------------------
+ FORM ELEMENTS
+------------------------------------------------------------*/
+
+	input, select {vertical-align: middle;}
+	input[type="radio"] {vertical-align: text-bottom;}
+	input[type="checkbox"] {vertical-align: bottom; *vertical-align: baseline;}
+	select, input, textarea { font: 99% sans-serif; }
+	input[type=button], input[type=submit], button {cursor: pointer;}
+	button, input, select, textarea {margin: 0;}
+	button {width: auto; overflow: visible;} /* make buttons play nice in IE */
+
+
+/*------------------------------------------------------------
+ TABLE
+------------------------------------------------------------*/
+
+	table { font-size: inherit; font: 100%; }
+	table { border-collapse: collapse; border-spacing: 0; }
+	th { font-weight: bold; vertical-align: bottom; }
+	td { font-weight: normal; vertical-align: top; }
+	td, td img {vertical-align: top;} 
+
+
+/*------------------------------------------------------------
+ PREFORMATTED TEXT
+------------------------------------------------------------*/	
+
+	pre {
+		white-space: pre; /* CSS2 */
+		white-space: pre-wrap; /* CSS 2.1 */
+		white-space: pre-line; /* CSS 3 (and 2.1 as well, actually) */
+		word-wrap: break-word; /* IE */
+	}
+
+/*------------------------------------------------------------
+ TEXT SELECTION
+------------------------------------------------------------*/
+
+	::-moz-selection{background: #fcd700; color: #fff; text-shadow: none;}
+	::selection {background: #fcd700; color: #fff; text-shadow: none;} 
+	
+
+/*------------------------------------------------------------
+ COMMON TAGS
+------------------------------------------------------------*/	
+	
+	small { font-size: 85%; }
+	sub, sup {font-size: 75%; line-height: 0; position: relative;}
+	sup {top: -0.5em;}
+	sub {bottom: -0.25em;}
+	
+	
+/*------------------------------------------------------------
+ FLOATS
+------------------------------------------------------------*/
+
+	.clearfix:before, .clearfix:after { content: "\0020"; display: block; height: 0; overflow: hidden; }  
+	.clearfix:after { clear: both; }  
+	.clearfix { zoom: 1; }  
+
+
+/*------------------------------------------------------------
+ iOS HIGHTLIGHTING ELEMENTS
+------------------------------------------------------------*/
+
+	* {
+		-webkit-tap-highlight-color: rgba(0,0,0,0);
+	} 
+
+
+/*------------------------------------------------------------
+ TEXT CONNECTIONS
+------------------------------------------------------------*/
+
+	del {text-decoration: line-through;}
+	ins {background-color: #fcd700; color: #000; text-decoration: none;}
+	mark {background-color: #fcd700; color: #000; font-style: italic; font-weight: bold;}
+
+
+/*------------------------------------------------------------
+ OTHER TAGS
+------------------------------------------------------------*/
+
+	
+	abbr[title], dfn[title] { border-bottom: 1px dotted #000; cursor: help; }	
+	hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+	pre, code, kbd, samp {font-family: monospace, sans-serif;} /* standardize any monospaced elements */
+	strong, th {font-weight: bold;}
+
+
+
+
+

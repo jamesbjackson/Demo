@@ -1,0 +1,68 @@
+	
+	#homepage  h1 {
+		font-size: 41px;
+		line-height: 20px;
+		margin:0px 0px 45px 0px;
+		padding:0px 0px 0px 0px;
+		font-weight: lighter;
+	}
+	
+	#homepage  h1 b {
+		font-weight: 400;
+	}
+	
+	#homepage .copy {
+		font-size: 20px;
+		line-height: 35px;
+		font-family: 'ComfortaaRegular', 'Helvetica Neue', 'HelveticaNeue', Helvetica, 'Lucida Grande', Lucida, Arial, sans-serif;
+		margin:0px 0px 50px 0px;
+		padding:0px 0px 0px 0px;
+		font-weight: lighter;
+	}
+	
+	#homepage .visualisation {
+		background-image: url("../../images/world_map.png");
+		background-repeat: no-repeat;
+		background-color: transparent;
+		background-position: center 0px;
+		position:relative;
+		height:410px;
+	}
+	
+	#homepage .visualisation .server {
+		background-image: url("../../images/server.png");
+		background-repeat: no-repeat;
+		background-color: transparent;
+		background-position: center center; 
+		position:absolute;
+		float:left;
+		top:0px;
+		left:0px;
+		width:67px;
+		height:101px;
+	}
+	
+	#homepage .visualisation canvas {
+		background-color: transparent;
+		position:absolute;
+		float:left;
+		top:0px;
+		left:0px;
+	}
+
+	#homepage header { opacity : 0; }
+	#homepage .viewable { opacity : 0; }
+	#homepage .title { opacity : 0; } 
+	#homepage .copy { opacity : 0; }
+	#homepage .visualisation { opacity : 0; }
+	#homepage footer { opacity : 0; } 
+
+	
+
+
+	
+	
+
+	
+	
+

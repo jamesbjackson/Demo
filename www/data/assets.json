@@ -1,0 +1,6 @@
+{
+	"assets":[
+		{ "path":"/content/home/", "url":"html/home.html", "title":"Realtime Cloud", "mimeType":"application/xml", "view":"HomeView" }
+	]
+}
+

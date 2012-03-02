@@ -1,0 +1,80 @@
+	
+	.preloader  h1 {
+		font-size: 41px;
+		line-height: 20px;
+		margin:0px 0px 50px 0px;
+		padding:0px 0px 0px 0px;
+		font-weight: lighter;
+		/*color: #e8e7e7;*/
+	}
+	
+	.preloader  h1 b {
+		font-weight: 400;
+		/*color: #FFFFFF;*/
+	}
+	
+	.preloader .progress-info {
+		font-size: 26px;
+		line-height: 20px;
+		margin:0px 0px 20px 0px;
+		padding:0px 0px 0px 0px;
+		font-weight: lighter;
+		
+		/*color: #e8e7e7;*/
+
+	}
+	
+	.preloader .progress-info .value{
+		padding:10px 10px 10px 10px;
+		background-color: #282828;
+		box-shadow: -2px -2px 2px #000000;
+		font-family: 'BitstreamVeraSansMonoRoman', Arial, sans-serif;
+		color: #FFFFFF;
+		width: 464px;
+	}
+	
+	.preloader .progress-info .value-one{
+		margin-left: 10px;
+	}
+	
+	.preloader .progress-info .value-percent{
+		margin-right: 10px;
+	}
+	
+	
+	.preloader .ui-progress{
+		margin:0px 0px 80px 0px;
+		background-image: url("../../images/separator.png");
+		background-repeat: no-repeat;
+		background-color: transparent;
+		background-position: 0 bottom;  
+		width: 964px;
+		height: 264px;
+	
+	}
+	
+	.preloader .ui-progress .progress-indicator{
+		background-image: url("../../images/progress_indicator.png");
+		background-repeat: no-repeat;
+		background-color: transparent;
+		background-position: 0 bottom; 
+		position: relative;
+		float: left;
+		top: 212px;
+		left: 287px;
+		height: 99px;
+		width: 244px;
+		-webkit-transform: rotate(0deg);
+		-webkit-transform-origin:79% 50%; 
+	}
+
+
+	
+
+
+	
+	
+
+	
+	
+

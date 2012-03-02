@@ -1,0 +1,9 @@
+{
+	"config":	[],
+	
+	"assets":[	
+		{ "path": "/preloader/", "url":"html/preloader.html", "title" : "Realtime Cloud", "mimeType":"application/xml", "view":"PreloaderView"},
+        { "path": "/not_found/", "url":"html/not_found.html", "title" : "Realtime Cloud", "mimeType":"application/xml", "view":"PageNotFoundView"}
+	]
+
+}

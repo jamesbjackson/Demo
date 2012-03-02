@@ -1,0 +1,7 @@
+*** Demo Application used in my FITC Presentation.	
+
+*IMPORTANT*: Logo used in demo are copyright of myself and need to get my prermission to use in another project. 
+
+This includes a working example of XirSys Cube (RobotLegs Port to JavaScript ) and use of Standard JS ( HaXe Externs for HTML5 technologies ). Please note this was a very quick turn arround for this demo for myself so I am looking at always improving how it functions and breaking it up into reusable module components, when I get some time. Any issues please let me know and I look at fixing them.
+
+Release credited to James Jackson (jamesbjackson).
